@@ -72,7 +72,7 @@ const AddCommentContainer = styled.div`
   padding: 1rem;
 `
 
-export default function Comments({comments: serverComments}) {
+export default function Comments() {
   const [commentText, setCommentText] = useState('')
   const dispatch = useDispatch()
   const [localComments, setLocalComments] = useState()
